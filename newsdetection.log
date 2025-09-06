@@ -1,0 +1,772 @@
+2025-09-05 22:19:16,865 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:19:16,865 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:20:29,564 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 22:20:58,169 - nli - INFO - NLI model loaded successfully
+2025-09-05 22:21:46,240 - api - INFO - Processing claim: hii...
+2025-09-05 22:21:46,240 - api - INFO - Searching for relevant sources...
+2025-09-05 22:21:47,297 - retrieve - INFO - Google search attempt 1 for query: "hii" official announcement confirmed statement so...
+2025-09-05 22:21:50,037 - retrieve - INFO - Google search successful: found 2 URLs
+2025-09-05 22:21:50,235 - api - INFO - Fetching 2 articles...
+2025-09-05 22:22:08,150 - retrieve - INFO - Successfully fetched 2 articles
+2025-09-05 22:22:08,153 - api - INFO - Successfully fetched 2 articles
+2025-09-05 22:22:08,153 - api - INFO - Analyzing evidence...
+2025-09-05 22:22:30,326 - api - INFO - Found 2 total evidence sentences
+2025-09-05 22:22:30,327 - api - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 2
+2025-09-05 22:22:30,327 - verdict - INFO - Determining verdict with 0 supporting, 0 contradicting, 2 neutral evidence
+2025-09-05 22:22:30,327 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-05 22:22:32,131 - api - INFO - Generating AI reasoning...
+2025-09-05 22:22:32,132 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-05 22:22:33,922 - api - INFO - Returning 2 evidence items
+2025-09-05 22:24:15,783 - api - INFO - Processing claim: is pm of india is on visite of china...
+2025-09-05 22:24:15,783 - api - INFO - Searching for relevant sources...
+2025-09-05 22:24:16,114 - retrieve - INFO - Google search attempt 1 for query: "is pm of india is on visit of china" official ann...
+2025-09-05 22:24:18,416 - retrieve - INFO - Google search successful: found 0 URLs
+2025-09-05 22:24:18,416 - retrieve - INFO - NewsAPI search attempt 1 for query: "is pm of india is on visit of china" official ann...
+2025-09-05 22:24:20,635 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22is+pm+of+india+is+on+visit+of+china%22+official+announcement+confirmed+statement+source+fact+check+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-05 22:24:20,635 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-05 22:24:20,699 - api - INFO - Fetching 5 articles...
+2025-09-05 22:24:36,829 - retrieve - INFO - Successfully fetched 5 articles
+2025-09-05 22:24:36,829 - api - INFO - Successfully fetched 5 articles
+2025-09-05 22:24:36,837 - api - INFO - Analyzing evidence...
+2025-09-05 22:24:40,682 - api - INFO - Found 5 total evidence sentences
+2025-09-05 22:24:40,682 - api - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 5
+2025-09-05 22:24:40,682 - verdict - INFO - Determining verdict with 0 supporting, 0 contradicting, 5 neutral evidence
+2025-09-05 22:24:40,682 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-05 22:24:42,788 - api - INFO - Generating AI reasoning...
+2025-09-05 22:24:42,788 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-05 22:24:44,838 - api - INFO - Returning 5 evidence items
+2025-09-05 22:34:30,482 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:34:30,482 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:34:45,535 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 22:35:37,445 - nli - INFO - NLI model loaded successfully
+2025-09-05 22:35:50,706 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:35:50,706 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:36:12,746 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 22:36:41,237 - nli - INFO - NLI model loaded successfully
+2025-09-05 22:36:50,087 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:36:50,087 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:37:07,300 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 22:37:20,906 - nli - INFO - NLI model loaded successfully
+2025-09-05 22:38:47,900 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:38:47,900 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:39:00,080 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 22:39:15,393 - nli - INFO - NLI model loaded successfully
+2025-09-05 22:40:22,959 - api - INFO - Processing claim: where is pm of india...
+2025-09-05 22:40:22,959 - api - INFO - Searching for relevant sources...
+2025-09-05 22:40:23,153 - retrieve - INFO - Google search attempt 1 for query: "where is pm of india" official announcement confi...
+2025-09-05 22:40:25,633 - retrieve - INFO - Google search successful: found 0 URLs
+2025-09-05 22:40:25,650 - retrieve - INFO - NewsAPI search attempt 1 for query: "where is pm of india" official announcement confi...
+2025-09-05 22:40:27,820 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22where+is+pm+of+india%22+official+announcement+confirmed+statement+source+fact+check+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-05 22:40:27,820 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-05 22:40:27,901 - api - INFO - Fetching 5 articles...
+2025-09-05 22:40:42,111 - retrieve - INFO - Successfully fetched 5 articles
+2025-09-05 22:40:42,122 - api - INFO - Successfully fetched 5 articles
+2025-09-05 22:40:42,122 - api - INFO - Analyzing evidence...
+2025-09-05 22:40:48,793 - api - INFO - Found 5 total evidence sentences
+2025-09-05 22:40:48,793 - api - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 5
+2025-09-05 22:40:48,793 - verdict - INFO - Determining web search verdict with 0 supporting, 0 contradicting, 5 neutral evidence
+2025-09-05 22:40:48,793 - verdict - INFO - Determining AI verdict for claim: where is pm of india...
+2025-09-05 22:40:48,801 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-05 22:40:51,063 - api - INFO - Generating AI reasoning...
+2025-09-05 22:40:51,063 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-05 22:40:53,009 - api - INFO - Returning 5 evidence items
+2025-09-05 22:48:07,423 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:48:07,423 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:48:19,567 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 22:48:44,102 - nli - INFO - NLI model loaded successfully
+2025-09-05 22:48:54,656 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:48:54,656 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:49:07,036 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 22:49:18,924 - nli - INFO - NLI model loaded successfully
+2025-09-05 22:50:10,567 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:50:10,567 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:50:21,599 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 22:50:35,420 - nli - INFO - NLI model loaded successfully
+2025-09-05 22:51:17,518 - api - INFO - Processing claim: where is the pm of india...
+2025-09-05 22:51:17,518 - api - INFO - Searching for relevant sources...
+2025-09-05 22:51:17,724 - retrieve - INFO - Google search attempt 1 for query: "where is the pm of india" official announcement c...
+2025-09-05 22:51:19,699 - retrieve - INFO - Google search successful: found 0 URLs
+2025-09-05 22:51:19,709 - retrieve - INFO - NewsAPI search attempt 1 for query: "where is the pm of india" official announcement c...
+2025-09-05 22:51:22,124 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22where+is+the+pm+of+india%22+official+announcement+confirmed+statement+source+fact+check+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-05 22:51:22,125 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-05 22:51:22,221 - api - INFO - Fetching 8 articles...
+2025-09-05 22:51:58,707 - retrieve - INFO - Successfully fetched 7 articles
+2025-09-05 22:51:58,707 - api - INFO - Successfully fetched 7 articles
+2025-09-05 22:51:58,707 - api - INFO - Analyzing evidence...
+2025-09-05 22:52:05,203 - api - INFO - Found 7 total evidence sentences
+2025-09-05 22:52:05,203 - api - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 7
+2025-09-05 22:52:05,203 - verdict - INFO - Determining web search verdict with 0 supporting, 0 contradicting, 7 neutral evidence
+2025-09-05 22:52:05,203 - verdict - INFO - Determining AI verdict for claim: where is the pm of india...
+2025-09-05 22:52:05,207 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-05 22:52:08,133 - api - INFO - Generating AI reasoning...
+2025-09-05 22:52:08,133 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-05 22:52:10,126 - api - INFO - Returning 7 evidence items
+2025-09-05 22:57:58,967 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:57:58,967 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:58:20,706 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 22:58:58,107 - nli - INFO - NLI model loaded successfully
+2025-09-05 22:59:10,565 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:59:10,565 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 22:59:24,944 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 23:00:03,176 - nli - INFO - NLI model loaded successfully
+2025-09-05 23:00:27,540 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:00:27,540 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:00:44,966 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 23:00:56,598 - nli - INFO - NLI model loaded successfully
+2025-09-05 23:00:56,679 - huggingface_ai - WARNING - Google Generative AI library not installed
+2025-09-05 23:01:03,297 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:01:03,297 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:01:15,412 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 23:01:33,180 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:01:33,180 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:01:33,180 - cache - INFO - Cache cleared
+2025-09-05 23:01:33,180 - cache - INFO - Cache cleared
+2025-09-05 23:01:37,992 - nli - INFO - NLI model loaded successfully
+2025-09-05 23:01:38,138 - huggingface_ai - WARNING - Google Generative AI library not installed
+2025-09-05 23:04:56,505 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:04:56,505 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:05:13,843 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 23:05:36,583 - nli - INFO - NLI model loaded successfully
+2025-09-05 23:05:36,645 - huggingface_ai - WARNING - Google Generative AI library not installed
+2025-09-05 23:06:25,861 - api - INFO - Processing claim: the dogs have two legs...
+2025-09-05 23:06:25,862 - api - INFO - Searching for relevant sources...
+2025-09-05 23:06:26,121 - retrieve - INFO - Google search attempt 1 for query: "the dogs have two legs" official announcement con...
+2025-09-05 23:06:29,189 - retrieve - INFO - Google search successful: found 0 URLs
+2025-09-05 23:06:29,194 - retrieve - INFO - NewsAPI search attempt 1 for query: "the dogs have two legs" official announcement con...
+2025-09-05 23:06:31,603 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22the+dogs+have+two+legs%22+official+announcement+confirmed+statement+source+fact+check+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-05 23:06:31,606 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-05 23:06:31,752 - api - INFO - Fetching 7 articles...
+2025-09-05 23:06:41,950 - retrieve - INFO - Successfully fetched 6 articles
+2025-09-05 23:06:41,952 - api - INFO - Successfully fetched 6 articles
+2025-09-05 23:06:41,952 - api - INFO - Analyzing evidence...
+2025-09-05 23:06:48,510 - api - INFO - Found 6 total evidence sentences
+2025-09-05 23:06:48,510 - api - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 6
+2025-09-05 23:06:48,511 - verdict - INFO - Determining web search verdict with 0 supporting, 0 contradicting, 6 neutral evidence
+2025-09-05 23:06:48,511 - verdict - INFO - Determining AI verdict for claim: the dogs have two legs...
+2025-09-05 23:06:48,511 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-05 23:06:48,511 - huggingface_ai - WARNING - Gemini model not available, falling back to Hugging Face
+2025-09-05 23:06:50,077 - api - INFO - Generating AI reasoning...
+2025-09-05 23:06:50,078 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-05 23:06:50,078 - huggingface_ai - WARNING - Gemini model not available, falling back to Hugging Face
+2025-09-05 23:06:52,625 - api - INFO - Returning 6 evidence items
+2025-09-05 23:07:57,543 - api - INFO - Processing claim: tammana bhatiya is a hollywod actress...
+2025-09-05 23:07:57,543 - api - INFO - Searching for relevant sources...
+2025-09-05 23:07:57,914 - retrieve - INFO - Google search attempt 1 for query: "tammana bhatiya is a hollywod actress" official a...
+2025-09-05 23:07:59,658 - retrieve - INFO - Google search successful: found 0 URLs
+2025-09-05 23:07:59,660 - retrieve - INFO - NewsAPI search attempt 1 for query: "tammana bhatiya is a hollywod actress" official a...
+2025-09-05 23:08:01,257 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22tammana+bhatiya+is+a+hollywod+actress%22+official+announcement+confirmed+statement+source+fact+check+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-05 23:08:01,257 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-05 23:08:01,422 - api - INFO - Fetching 7 articles...
+2025-09-05 23:08:01,760 - retrieve - INFO - Successfully fetched 6 articles
+2025-09-05 23:08:01,760 - api - INFO - Successfully fetched 6 articles
+2025-09-05 23:08:01,760 - api - INFO - Analyzing evidence...
+2025-09-05 23:08:06,761 - api - INFO - Found 6 total evidence sentences
+2025-09-05 23:08:06,762 - api - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 6
+2025-09-05 23:08:06,762 - verdict - INFO - Determining web search verdict with 0 supporting, 0 contradicting, 6 neutral evidence
+2025-09-05 23:08:06,762 - verdict - INFO - Determining AI verdict for claim: tammana bhatiya is a hollywod actress...
+2025-09-05 23:08:06,762 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-05 23:08:06,762 - huggingface_ai - WARNING - Gemini model not available, falling back to Hugging Face
+2025-09-05 23:08:08,462 - api - INFO - Generating AI reasoning...
+2025-09-05 23:08:08,462 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-05 23:08:08,462 - huggingface_ai - WARNING - Gemini model not available, falling back to Hugging Face
+2025-09-05 23:08:09,891 - api - INFO - Returning 6 evidence items
+2025-09-05 23:11:29,783 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:11:29,784 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:11:54,176 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 23:12:29,961 - nli - INFO - NLI model loaded successfully
+2025-09-05 23:12:30,610 - huggingface_ai - WARNING - Google Generative AI library not installed
+2025-09-05 23:12:52,299 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:12:52,299 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:13:10,739 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 23:13:37,967 - nli - INFO - NLI model loaded successfully
+2025-09-05 23:13:38,551 - huggingface_ai - WARNING - Google Generative AI library not installed
+2025-09-05 23:15:24,810 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:15:24,811 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:28:17,255 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:28:17,256 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:29:10,467 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:29:10,467 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:41:49,273 - api - INFO - Processing claim: tammana bhatiya is a hollywod actress...
+2025-09-05 23:41:49,299 - api - INFO - Searching for relevant sources...
+2025-09-05 23:41:49,886 - retrieve - INFO - Google search attempt 1 for query: ("tammana bhatiya is a hollywood actor actress cel...
+2025-09-05 23:41:54,114 - retrieve - INFO - Google search successful: found 5 URLs
+2025-09-05 23:41:54,224 - retrieve - INFO - NewsAPI search attempt 1 for query: ("tammana bhatiya is a hollywood actor actress cel...
+2025-09-05 23:41:57,090 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22tammana+bhatiya+is+a+hollywood+actor+actress+celebrity%22%29+OR+%28%22tammana+bhatiya%22+OR+%22hollywood+actor%22+OR+%22actor+actress%22+OR+%22actress+celebrity%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-05 23:41:57,097 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-05 23:41:57,283 - api - INFO - Fetching 7 articles...
+2025-09-05 23:42:52,788 - retrieve - INFO - Successfully fetched 6 articles
+2025-09-05 23:42:52,788 - api - INFO - Successfully fetched 6 articles
+2025-09-05 23:42:52,788 - api - INFO - Analyzing evidence...
+2025-09-05 23:43:51,064 - api - INFO - Found 6 total evidence sentences
+2025-09-05 23:43:51,064 - api - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 6
+2025-09-05 23:43:51,064 - verdict - INFO - Determining web search verdict with 0 supporting, 0 contradicting, 6 neutral evidence
+2025-09-05 23:43:51,064 - verdict - INFO - Determining AI verdict for claim: tammana bhatiya is a hollywod actress...
+2025-09-05 23:43:51,064 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-05 23:43:51,064 - huggingface_ai - WARNING - Gemini model not available, falling back to Hugging Face
+2025-09-05 23:43:52,962 - api - INFO - Generating AI reasoning...
+2025-09-05 23:43:52,962 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-05 23:43:52,962 - huggingface_ai - WARNING - Gemini model not available, falling back to Hugging Face
+2025-09-05 23:43:55,572 - api - INFO - Returning 6 evidence items
+2025-09-05 23:50:27,906 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:50:27,906 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:50:43,210 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 23:51:05,887 - nli - INFO - NLI model loaded successfully
+2025-09-05 23:51:06,214 - huggingface_ai - WARNING - Google Generative AI library not installed
+2025-09-05 23:58:23,638 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:58:23,638 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:58:37,390 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-05 23:59:05,372 - nli - INFO - NLI model loaded successfully
+2025-09-05 23:59:05,565 - huggingface_ai - WARNING - Google Generative AI library not installed
+2025-09-05 23:59:40,889 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:59:40,889 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-05 23:59:53,387 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 00:00:15,973 - nli - INFO - NLI model loaded successfully
+2025-09-06 00:00:16,132 - huggingface_ai - WARNING - Google Generative AI library not installed
+2025-09-06 00:01:04,360 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:01:04,360 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:01:17,220 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 00:01:32,176 - nli - INFO - NLI model loaded successfully
+2025-09-06 00:01:32,209 - huggingface_ai - WARNING - Google Generative AI library not installed
+2025-09-06 00:02:16,464 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:02:16,464 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:02:32,573 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 00:02:54,400 - nli - INFO - NLI model loaded successfully
+2025-09-06 00:02:54,527 - huggingface_ai - WARNING - Google Generative AI library not installed
+2025-09-06 00:05:37,336 - __main__ - INFO - Processing claim: tammana bhatiya is a hollywod actress...
+2025-09-06 00:05:37,345 - __main__ - INFO - Searching for relevant sources...
+2025-09-06 00:05:37,751 - retrieve - INFO - Google search attempt 1 for query: ("tammana bhatiya is a hollywood actor actress cel...
+2025-09-06 00:05:39,996 - retrieve - INFO - Google search successful: found 5 URLs
+2025-09-06 00:05:40,044 - retrieve - INFO - NewsAPI search attempt 1 for query: ("tammana bhatiya is a hollywood actor actress cel...
+2025-09-06 00:05:42,748 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22tammana+bhatiya+is+a+hollywood+actor+actress+celebrity%22%29+OR+%28%22tammana+bhatiya%22+OR+%22hollywood+actor%22+OR+%22actor+actress%22+OR+%22actress+celebrity%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 00:05:42,796 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 00:05:43,861 - __main__ - INFO - Fetching 7 articles...
+2025-09-06 00:06:21,744 - retrieve - INFO - Successfully fetched 4 articles
+2025-09-06 00:06:21,744 - __main__ - INFO - Successfully fetched 4 articles
+2025-09-06 00:06:21,744 - __main__ - INFO - Analyzing evidence...
+2025-09-06 00:07:49,971 - __main__ - INFO - Found 4 total evidence sentences
+2025-09-06 00:07:49,971 - __main__ - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 4
+2025-09-06 00:07:49,979 - verdict - INFO - Determining web search verdict with 0 supporting, 0 contradicting, 4 neutral evidence
+2025-09-06 00:07:49,979 - verdict - INFO - Determining AI verdict for claim: tammana bhatiya is a hollywod actress...
+2025-09-06 00:07:49,979 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 00:07:49,979 - huggingface_ai - WARNING - Gemini model not available, falling back to Hugging Face
+2025-09-06 00:07:51,723 - __main__ - INFO - Generating AI reasoning...
+2025-09-06 00:07:51,723 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 00:07:51,723 - huggingface_ai - WARNING - Gemini model not available, falling back to Hugging Face
+2025-09-06 00:07:53,602 - __main__ - INFO - Returning 4 evidence items
+2025-09-06 00:08:31,469 - api - INFO - Processing claim: pm of india is in china...
+2025-09-06 00:08:31,485 - api - INFO - Searching for relevant sources...
+2025-09-06 00:08:31,883 - retrieve - INFO - Google search attempt 1 for query: "pm of india is in china" official confirmed real ...
+2025-09-06 00:08:34,457 - retrieve - INFO - Google search successful: found 0 URLs
+2025-09-06 00:08:34,464 - retrieve - INFO - NewsAPI search attempt 1 for query: "pm of india is in china" official confirmed real ...
+2025-09-06 00:08:36,818 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22pm+of+india+is+in+china%22+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 00:08:36,818 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 00:08:36,925 - api - INFO - Fetching 7 articles...
+2025-09-06 00:08:54,851 - retrieve - INFO - Successfully fetched 7 articles
+2025-09-06 00:08:54,859 - api - INFO - Successfully fetched 7 articles
+2025-09-06 00:08:54,860 - api - INFO - Analyzing evidence...
+2025-09-06 00:09:09,606 - api - INFO - Found 7 total evidence sentences
+2025-09-06 00:09:09,606 - api - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 7
+2025-09-06 00:09:09,606 - verdict - INFO - Determining web search verdict with 0 supporting, 0 contradicting, 7 neutral evidence
+2025-09-06 00:09:09,606 - verdict - INFO - Determining AI verdict for claim: pm of india is in china...
+2025-09-06 00:09:09,606 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 00:09:09,606 - huggingface_ai - WARNING - Gemini model not available, falling back to Hugging Face
+2025-09-06 00:09:11,630 - api - INFO - Generating AI reasoning...
+2025-09-06 00:09:11,630 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 00:09:11,630 - huggingface_ai - WARNING - Gemini model not available, falling back to Hugging Face
+2025-09-06 00:09:13,268 - api - INFO - Returning 7 evidence items
+2025-09-06 00:13:38,381 - api - INFO - Processing claim: Claim: "tammana bhatiya is a hollywod actress"
+
+Instructions for the system:
+
+Analyze the claim for ...
+2025-09-06 00:13:38,401 - api - INFO - Searching for relevant sources...
+2025-09-06 00:13:38,849 - retrieve - INFO - Google search attempt 1 for query: ("claim: "tammana bhatiya is a hollywood actor act...
+2025-09-06 00:13:41,938 - retrieve - INFO - Google search successful: found 0 URLs
+2025-09-06 00:13:41,948 - retrieve - INFO - NewsAPI search attempt 1 for query: ("claim: "tammana bhatiya is a hollywood actor act...
+2025-09-06 00:13:44,001 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22claim%3A+%22tammana+bhatiya+is+a+hollywood+actor+actress+celebrity%22%0A%0Ainstructions+for+the+system%3A%0A%0Aanalyze+the+claim+for+suspicious+indicators+such+as+unusual+name+patterns+or+fabricated+entities.%0Agenerate+optimized+search+queries+targeting+the+claim+and+related+entities.%0Asearch+for+credible+sources+supporting+or+contradicting+the+claim.%0Acategorize+evidence+into+supporting%2C+contradicting%2C+or+neutral.%0Adetermine+a+verdict%3A+true%2C+false%2C+likely+true%2C+likely+false%2C+mixed%2C+or+unclear.%0Aprovide+a+detailed+rationale+explaining+the+verdict.%0Aif+evidence+is+insufficient%2C+generate+ai+reasoning+explaining+the+uncertainty.%0Areturn+the+verdict%2C+rationale%2C+evidence%2C+and+ai+reasoning+in+the+response.%22%29+OR+%28%22claim%3A+%22tammana%22+OR+%22%22tammana+bhatiya%22+OR+%22hollywood+actor%22+OR+%22actor+actress%22+OR+%22actress+celebrity%22%22+OR+%22celebrity%22+instructions%22+OR+%22instructions+for%22+OR+%22for+the%22+OR+%22the+system%3A%22+OR+%22system%3A+analyze%22+OR+%22analyze+the%22+OR+%22the+claim%22+OR+%22claim+for%22+OR+%22for+suspicious%22+OR+%22suspicious+indicators%22+OR+%22indicators+such%22+OR+%22unusual+name%22+OR+%22name+patterns%22+OR+%22fabricated+entities.%22+OR+%22entities.+generate%22+OR+%22generate+optimized%22+OR+%22optimized+search%22+OR+%22search+queries%22+OR+%22queries+targeting%22+OR+%22targeting+the%22+OR+%22the+claim%22+OR+%22claim+and%22+OR+%22and+related%22+OR+%22related+entities.%22+OR+%22entities.+search%22+OR+%22search+for%22+OR+%22for+credible%22+OR+%22credible+sources%22+OR+%22sources+supporting%22+OR+%22contradicting+the%22+OR+%22the+claim.%22+OR+%22claim.+categorize%22+OR+%22categorize+evidence%22+OR+%22evidence+into%22+OR+%22into+supporting%2C%22+OR+%22supporting%2C+contradicting%2C%22+OR+%22neutral.+determine%22+OR+%22verdict%3A+true%2C%22+OR+%22true%2C+false%2C%22+OR+%22false%2C+likely%22+OR+%22likely+true%2C%22+OR+%22true%2C+likely%22+OR+%22likely+false%2C%22+OR+%22false%2C+mixed%2C%22+OR+%22unclear.+provide%22+OR+%22detailed+rationale%22+OR+%22rationale+explaining%22+OR+%22explaining+the%22+OR+%22the+verdict.%22+OR+%22insufficient%2C+generate%22+OR+%22reasoning+explaining%22+OR+%22explaining+the%22+OR+%22the+uncertainty.%22+OR+%22uncertainty.+return%22+OR+%22return+the%22+OR+%22the+verdict%2C%22+OR+%22verdict%2C+rationale%2C%22+OR+%22rationale%2C+evidence%2C%22+OR+%22evidence%2C+and%22+OR+%22the+response.%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 00:13:44,021 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 00:13:44,149 - api - INFO - Fetching 7 articles...
+2025-09-06 00:13:53,847 - retrieve - INFO - Successfully fetched 7 articles
+2025-09-06 00:13:53,848 - api - INFO - Successfully fetched 7 articles
+2025-09-06 00:13:53,849 - api - INFO - Analyzing evidence...
+2025-09-06 00:14:16,204 - api - INFO - Found 7 total evidence sentences
+2025-09-06 00:14:16,207 - api - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 7
+2025-09-06 00:14:16,209 - verdict - INFO - Determining web search verdict with 0 supporting, 0 contradicting, 7 neutral evidence
+2025-09-06 00:14:16,213 - verdict - INFO - Determining AI verdict for claim: Claim: "tammana bhatiya is a hollywod actress"
+
+In...
+2025-09-06 00:14:16,213 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 00:14:16,214 - huggingface_ai - WARNING - Gemini model not available, falling back to Hugging Face
+2025-09-06 00:14:18,232 - api - INFO - Generating AI reasoning...
+2025-09-06 00:14:18,233 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 00:14:18,233 - huggingface_ai - WARNING - Gemini model not available, falling back to Hugging Face
+2025-09-06 00:14:20,094 - api - INFO - Returning 7 evidence items
+2025-09-06 00:16:33,153 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:16:33,153 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:16:54,868 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 00:17:12,559 - nli - INFO - NLI model loaded successfully
+2025-09-06 00:17:13,276 - huggingface_ai - WARNING - Google Generative AI library not installed
+2025-09-06 00:22:02,171 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:22:02,171 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:22:24,418 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 00:23:04,651 - nli - INFO - NLI model loaded successfully
+2025-09-06 00:23:14,234 - huggingface_ai - WARNING - GEMINI_API_KEY not configured
+2025-09-06 00:24:50,593 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:24:50,594 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:25:20,328 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 00:26:04,231 - nli - INFO - NLI model loaded successfully
+2025-09-06 00:26:09,402 - huggingface_ai - WARNING - GEMINI_API_KEY not configured
+2025-09-06 00:26:40,145 - __main__ - INFO - Processing claim: tammana bhatiya is a hollywod actress...
+2025-09-06 00:26:40,155 - __main__ - INFO - Searching for relevant sources...
+2025-09-06 00:26:40,338 - retrieve - INFO - Google search attempt 1 for query: ("tammana bhatiya is a hollywood actor actress cel...
+2025-09-06 00:26:42,379 - retrieve - INFO - Google search successful: found 5 URLs
+2025-09-06 00:26:42,425 - retrieve - INFO - NewsAPI search attempt 1 for query: ("tammana bhatiya is a hollywood actor actress cel...
+2025-09-06 00:26:44,386 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22tammana+bhatiya+is+a+hollywood+actor+actress+celebrity%22%29+OR+%28%22tammana+bhatiya%22+OR+%22hollywood+actor%22+OR+%22actor+actress%22+OR+%22actress+celebrity%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 00:26:44,390 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 00:26:44,495 - __main__ - INFO - Fetching 7 articles...
+2025-09-06 00:27:20,226 - retrieve - INFO - Successfully fetched 6 articles
+2025-09-06 00:27:20,227 - __main__ - INFO - Successfully fetched 6 articles
+2025-09-06 00:27:20,227 - __main__ - INFO - Analyzing evidence...
+2025-09-06 00:28:23,396 - __main__ - INFO - Found 6 total evidence sentences
+2025-09-06 00:28:23,397 - __main__ - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 6
+2025-09-06 00:28:23,398 - verdict - INFO - Determining web search verdict with 0 supporting, 0 contradicting, 6 neutral evidence
+2025-09-06 00:28:23,398 - verdict - INFO - Determining AI verdict for claim: tammana bhatiya is a hollywod actress...
+2025-09-06 00:28:23,399 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 00:28:23,399 - huggingface_ai - WARNING - Gemini model not available, falling back to Hugging Face
+2025-09-06 00:28:25,807 - __main__ - INFO - Generating AI reasoning...
+2025-09-06 00:28:25,807 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 00:28:25,807 - huggingface_ai - WARNING - Gemini model not available, falling back to Hugging Face
+2025-09-06 00:28:27,419 - __main__ - INFO - Returning 6 evidence items
+2025-09-06 00:29:32,229 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:29:32,229 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:29:49,531 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 00:30:20,669 - nli - INFO - NLI model loaded successfully
+2025-09-06 00:30:22,749 - huggingface_ai - WARNING - GEMINI_API_KEY not configured
+2025-09-06 00:30:31,170 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:30:31,170 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:30:44,733 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 00:30:56,584 - nli - INFO - NLI model loaded successfully
+2025-09-06 00:30:58,464 - huggingface_ai - WARNING - GEMINI_API_KEY not configured
+2025-09-06 00:31:02,359 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:31:02,360 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:31:14,777 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 00:32:00,438 - nli - INFO - NLI model loaded successfully
+2025-09-06 00:32:28,332 - huggingface_ai - WARNING - GEMINI_API_KEY not configured
+2025-09-06 00:34:04,472 - api - INFO - Processing claim: where is pm of india...
+2025-09-06 00:34:04,506 - api - INFO - Searching for relevant sources...
+2025-09-06 00:34:05,109 - retrieve - INFO - Google search attempt 1 for query: "where is pm of india" official confirmed real fak...
+2025-09-06 00:34:07,515 - retrieve - INFO - Google search successful: found 0 URLs
+2025-09-06 00:34:07,529 - retrieve - INFO - NewsAPI search attempt 1 for query: "where is pm of india" official confirmed real fak...
+2025-09-06 00:34:10,285 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22where+is+pm+of+india%22+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 00:34:10,287 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 00:34:10,383 - api - INFO - Fetching 7 articles...
+2025-09-06 00:34:25,187 - retrieve - INFO - Successfully fetched 7 articles
+2025-09-06 00:34:25,187 - api - INFO - Successfully fetched 7 articles
+2025-09-06 00:34:25,187 - api - INFO - Analyzing evidence...
+2025-09-06 00:34:40,059 - api - INFO - Found 7 total evidence sentences
+2025-09-06 00:34:40,060 - api - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 7
+2025-09-06 00:34:40,061 - verdict - INFO - Determining web search verdict with 0 supporting, 0 contradicting, 7 neutral evidence
+2025-09-06 00:34:40,063 - verdict - INFO - Determining AI verdict for claim: where is pm of india...
+2025-09-06 00:34:40,065 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 00:34:40,065 - huggingface_ai - WARNING - Gemini model not available, falling back to Hugging Face
+2025-09-06 00:34:41,779 - api - INFO - Generating AI reasoning...
+2025-09-06 00:34:41,779 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 00:34:41,779 - huggingface_ai - WARNING - Gemini model not available, falling back to Hugging Face
+2025-09-06 00:34:43,234 - api - INFO - Returning 7 evidence items
+2025-09-06 00:48:09,061 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:48:09,061 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:48:23,908 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 00:48:38,817 - nli - INFO - NLI model loaded successfully
+2025-09-06 00:48:42,205 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 00:49:59,330 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:49:59,330 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:50:11,629 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 00:50:33,169 - nli - INFO - NLI model loaded successfully
+2025-09-06 00:50:34,773 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 00:50:55,927 - api - INFO - Processing claim: where is the pm of india...
+2025-09-06 00:50:55,928 - api - INFO - Searching for relevant sources...
+2025-09-06 00:50:56,282 - retrieve - INFO - Google search attempt 1 for query: "where is the pm of india" official confirmed real...
+2025-09-06 00:50:58,930 - retrieve - INFO - Google search successful: found 0 URLs
+2025-09-06 00:50:58,933 - retrieve - INFO - NewsAPI search attempt 1 for query: "where is the pm of india" official confirmed real...
+2025-09-06 00:51:01,109 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22where+is+the+pm+of+india%22+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 00:51:01,126 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 00:51:01,301 - api - INFO - Fetching 7 articles...
+2025-09-06 00:51:17,072 - retrieve - INFO - Successfully fetched 7 articles
+2025-09-06 00:51:17,074 - api - INFO - Successfully fetched 7 articles
+2025-09-06 00:51:17,074 - api - INFO - Analyzing evidence...
+2025-09-06 00:51:26,547 - api - INFO - Found 7 total evidence sentences
+2025-09-06 00:51:26,547 - api - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 7
+2025-09-06 00:51:26,548 - verdict - INFO - Determining web search verdict with 0 supporting, 0 contradicting, 7 neutral evidence
+2025-09-06 00:51:26,548 - verdict - INFO - Determining AI verdict for claim: where is the pm of india...
+2025-09-06 00:51:26,548 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 00:52:01,540 - api - INFO - Generating AI reasoning...
+2025-09-06 00:52:01,540 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 00:52:08,019 - api - INFO - Returning 7 evidence items
+2025-09-06 00:53:48,995 - api - INFO - Processing claim: dogs have two legs...
+2025-09-06 00:53:48,995 - api - INFO - Searching for relevant sources...
+2025-09-06 00:53:49,399 - retrieve - INFO - Google search attempt 1 for query: ("dogs have two legs") OR ("dogs have" OR "have tw...
+2025-09-06 00:53:51,518 - retrieve - INFO - Google search successful: found 7 URLs
+2025-09-06 00:53:51,578 - retrieve - INFO - NewsAPI search attempt 1 for query: ("dogs have two legs") OR ("dogs have" OR "have tw...
+2025-09-06 00:53:53,573 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22dogs+have+two+legs%22%29+OR+%28%22dogs+have%22+OR+%22have+two%22+OR+%22two+legs%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 00:53:53,574 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 00:53:53,743 - api - INFO - Fetching 7 articles...
+2025-09-06 00:54:29,285 - retrieve - INFO - Successfully fetched 5 articles
+2025-09-06 00:54:29,286 - api - INFO - Successfully fetched 5 articles
+2025-09-06 00:54:29,287 - api - INFO - Analyzing evidence...
+2025-09-06 00:59:25,572 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:59:25,572 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 00:59:38,835 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 01:00:31,022 - nli - INFO - NLI model loaded successfully
+2025-09-06 01:00:33,377 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 01:00:59,065 - api - INFO - Processing claim: dogs have two legs...
+2025-09-06 01:00:59,065 - api - INFO - Searching for relevant sources...
+2025-09-06 01:00:59,301 - retrieve - INFO - Google search attempt 1 for query: ("dogs have two legs") OR ("dogs have" OR "have tw...
+2025-09-06 01:01:02,299 - retrieve - INFO - Google search successful: found 7 URLs
+2025-09-06 01:01:02,340 - retrieve - INFO - NewsAPI search attempt 1 for query: ("dogs have two legs") OR ("dogs have" OR "have tw...
+2025-09-06 01:01:04,739 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22dogs+have+two+legs%22%29+OR+%28%22dogs+have%22+OR+%22have+two%22+OR+%22two+legs%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 01:01:04,739 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 01:01:04,846 - api - INFO - Fetching 7 articles...
+2025-09-06 01:01:40,293 - retrieve - INFO - Successfully fetched 5 articles
+2025-09-06 01:01:40,293 - api - INFO - Successfully fetched 5 articles
+2025-09-06 01:01:40,293 - api - INFO - Analyzing evidence...
+2025-09-06 01:05:14,512 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:05:14,520 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:05:39,458 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 01:06:02,784 - nli - INFO - NLI model loaded successfully
+2025-09-06 01:06:04,839 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 01:06:45,658 - api - INFO - Processing claim: dogs have two legs...
+2025-09-06 01:06:45,658 - api - INFO - Searching for relevant sources...
+2025-09-06 01:06:46,041 - retrieve - INFO - Google search attempt 1 for query: ("dogs have two legs") OR ("dogs have" OR "have tw...
+2025-09-06 01:06:48,626 - retrieve - INFO - Google search successful: found 7 URLs
+2025-09-06 01:06:48,714 - retrieve - INFO - NewsAPI search attempt 1 for query: ("dogs have two legs") OR ("dogs have" OR "have tw...
+2025-09-06 01:06:51,422 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22dogs+have+two+legs%22%29+OR+%28%22dogs+have%22+OR+%22have+two%22+OR+%22two+legs%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 01:06:51,422 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 01:06:51,559 - api - INFO - Fetching 7 articles...
+2025-09-06 01:07:27,369 - retrieve - INFO - Successfully fetched 5 articles
+2025-09-06 01:07:27,369 - api - INFO - Successfully fetched 5 articles
+2025-09-06 01:07:27,369 - api - INFO - Analyzing evidence...
+2025-09-06 01:11:13,325 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:11:13,325 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:11:42,514 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 01:12:11,429 - nli - INFO - NLI model loaded successfully
+2025-09-06 01:12:17,810 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 01:13:52,606 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:13:52,606 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:14:24,653 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 01:15:06,421 - nli - INFO - NLI model loaded successfully
+2025-09-06 01:15:28,964 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 01:18:21,307 - api - INFO - Found 5 total evidence sentences
+2025-09-06 01:18:21,347 - api - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 5
+2025-09-06 01:18:21,347 - verdict - INFO - Determining web search verdict with 0 supporting, 0 contradicting, 5 neutral evidence
+2025-09-06 01:18:21,355 - verdict - INFO - Determining AI verdict for claim: dogs have two legs...
+2025-09-06 01:18:21,363 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 01:18:31,386 - api - INFO - Generating AI reasoning...
+2025-09-06 01:18:31,386 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 01:18:36,640 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:18:36,648 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:18:38,693 - api - INFO - Returning 5 evidence items
+2025-09-06 01:18:58,465 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 01:19:01,791 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:19:01,791 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:20:02,466 - nli - INFO - NLI model loaded successfully
+2025-09-06 01:20:04,105 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 01:20:11,091 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 01:20:49,693 - nli - INFO - NLI model loaded successfully
+2025-09-06 01:20:51,652 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 01:20:51,798 - api - INFO - Processing claim: tammana bhatiya is a hollywood actress...
+2025-09-06 01:20:51,798 - api - INFO - Searching for relevant sources...
+2025-09-06 01:20:51,934 - retrieve - INFO - Google search attempt 1 for query: ("tammana bhatiya is a hollywood actor actress cel...
+2025-09-06 01:20:54,402 - retrieve - INFO - Google search successful: found 5 URLs
+2025-09-06 01:20:54,451 - retrieve - INFO - NewsAPI search attempt 1 for query: ("tammana bhatiya is a hollywood actor actress cel...
+2025-09-06 01:20:57,268 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22tammana+bhatiya+is+a+hollywood+actor+actress+celebrity%22%29+OR+%28%22tammana+bhatiya%22+OR+%22hollywood+actor%22+OR+%22actor+actress%22+OR+%22actress+celebrity%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 01:20:57,268 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 01:20:57,383 - api - INFO - Fetching 7 articles...
+2025-09-06 01:21:14,027 - __main__ - INFO - Processing claim: tammana bhatiya is a hollywood actress...
+2025-09-06 01:21:14,060 - __main__ - INFO - Searching for relevant sources...
+2025-09-06 01:21:14,396 - retrieve - INFO - Google search attempt 1 for query: ("tammana bhatiya is a hollywood actor actress cel...
+2025-09-06 01:21:23,846 - retrieve - INFO - Google search successful: found 5 URLs
+2025-09-06 01:21:24,063 - retrieve - INFO - NewsAPI search attempt 1 for query: ("tammana bhatiya is a hollywood actor actress cel...
+2025-09-06 01:21:30,590 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22tammana+bhatiya+is+a+hollywood+actor+actress+celebrity%22%29+OR+%28%22tammana+bhatiya%22+OR+%22hollywood+actor%22+OR+%22actor+actress%22+OR+%22actress+celebrity%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 01:21:30,758 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 01:21:31,881 - __main__ - INFO - Fetching 7 articles...
+2025-09-06 01:21:47,505 - retrieve - INFO - Successfully fetched 6 articles
+2025-09-06 01:21:47,512 - api - INFO - Successfully fetched 6 articles
+2025-09-06 01:21:47,512 - api - INFO - Analyzing evidence...
+2025-09-06 01:22:15,510 - retrieve - INFO - Successfully fetched 4 articles
+2025-09-06 01:22:15,518 - __main__ - INFO - Successfully fetched 4 articles
+2025-09-06 01:22:15,518 - __main__ - INFO - Analyzing evidence...
+2025-09-06 01:23:29,703 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:23:29,703 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:23:44,828 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 01:24:00,277 - nli - INFO - NLI model loaded successfully
+2025-09-06 01:24:01,917 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 01:24:37,629 - api - INFO - Processing claim: Where is pm of india...
+2025-09-06 01:24:37,629 - api - INFO - Searching for relevant sources...
+2025-09-06 01:24:37,722 - retrieve - INFO - Google search attempt 1 for query: "where is pm of india" official confirmed real fak...
+2025-09-06 01:24:39,262 - retrieve - INFO - Google search successful: found 0 URLs
+2025-09-06 01:24:39,270 - retrieve - INFO - NewsAPI search attempt 1 for query: "where is pm of india" official confirmed real fak...
+2025-09-06 01:24:41,917 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22where+is+pm+of+india%22+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 01:24:41,917 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 01:24:42,046 - api - INFO - Fetching 7 articles...
+2025-09-06 01:24:59,047 - retrieve - INFO - Successfully fetched 7 articles
+2025-09-06 01:24:59,047 - api - INFO - Successfully fetched 7 articles
+2025-09-06 01:24:59,047 - api - INFO - Analyzing evidence...
+2025-09-06 01:25:08,386 - api - INFO - Found 7 total evidence sentences
+2025-09-06 01:25:08,386 - api - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 7
+2025-09-06 01:25:08,386 - verdict - INFO - Determining web search verdict with 0 supporting, 0 contradicting, 7 neutral evidence
+2025-09-06 01:25:08,386 - verdict - INFO - Determining AI verdict for claim: Where is pm of india...
+2025-09-06 01:25:08,386 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 01:25:15,865 - api - INFO - Generating AI reasoning...
+2025-09-06 01:25:15,865 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 01:25:21,646 - api - INFO - Returning 7 evidence items
+2025-09-06 01:26:26,093 - api - INFO - Processing claim: the dog have two legs...
+2025-09-06 01:26:26,101 - api - INFO - Searching for relevant sources...
+2025-09-06 01:26:26,377 - retrieve - INFO - Google search attempt 1 for query: ("the dog have two legs") OR ("the dog" OR "dog ha...
+2025-09-06 01:26:28,333 - retrieve - INFO - Google search successful: found 7 URLs
+2025-09-06 01:26:28,424 - retrieve - INFO - NewsAPI search attempt 1 for query: ("the dog have two legs") OR ("the dog" OR "dog ha...
+2025-09-06 01:26:31,894 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22the+dog+have+two+legs%22%29+OR+%28%22the+dog%22+OR+%22dog+have%22+OR+%22have+two%22+OR+%22two+legs%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 01:26:31,894 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 01:26:32,018 - api - INFO - Fetching 7 articles...
+2025-09-06 01:26:58,124 - retrieve - INFO - Successfully fetched 5 articles
+2025-09-06 01:26:58,124 - api - INFO - Successfully fetched 5 articles
+2025-09-06 01:26:58,124 - api - INFO - Analyzing evidence...
+2025-09-06 01:31:34,391 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:31:34,391 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:32:05,611 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 01:32:35,456 - nli - INFO - NLI model loaded successfully
+2025-09-06 01:32:37,546 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 01:34:04,960 - api - INFO - Processing claim: dogs have two legs...
+2025-09-06 01:34:04,961 - api - INFO - Searching for relevant sources...
+2025-09-06 01:34:05,168 - retrieve - INFO - Google search attempt 1 for query: ("dogs have two legs") OR ("dogs have" OR "have tw...
+2025-09-06 01:34:07,294 - retrieve - INFO - Google search successful: found 7 URLs
+2025-09-06 01:34:07,355 - retrieve - INFO - NewsAPI search attempt 1 for query: ("dogs have two legs") OR ("dogs have" OR "have tw...
+2025-09-06 01:34:09,526 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22dogs+have+two+legs%22%29+OR+%28%22dogs+have%22+OR+%22have+two%22+OR+%22two+legs%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 01:34:09,528 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 01:34:09,578 - api - INFO - Fetching 7 articles...
+2025-09-06 01:34:45,284 - retrieve - INFO - Successfully fetched 5 articles
+2025-09-06 01:34:45,284 - api - INFO - Successfully fetched 5 articles
+2025-09-06 01:34:45,285 - api - INFO - Analyzing evidence...
+2025-09-06 01:37:31,557 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:37:31,558 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:37:48,446 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 01:38:07,819 - nli - INFO - NLI model loaded successfully
+2025-09-06 01:38:10,207 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 01:39:26,244 - api - INFO - Processing claim: the dog has two legs...
+2025-09-06 01:39:26,278 - api - INFO - Searching for relevant sources...
+2025-09-06 01:39:28,206 - retrieve - INFO - Google search attempt 1 for query: ("the dog has two legs") OR ("the dog" OR "dog has...
+2025-09-06 01:39:31,022 - retrieve - INFO - Google search successful: found 7 URLs
+2025-09-06 01:39:31,194 - retrieve - INFO - NewsAPI search attempt 1 for query: ("the dog has two legs") OR ("the dog" OR "dog has...
+2025-09-06 01:39:36,441 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22the+dog+has+two+legs%22%29+OR+%28%22the+dog%22+OR+%22dog+has%22+OR+%22has+two%22+OR+%22two+legs%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 01:39:36,528 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 01:39:37,877 - api - INFO - Fetching 7 articles...
+2025-09-06 01:39:57,634 - retrieve - INFO - Successfully fetched 6 articles
+2025-09-06 01:39:57,638 - api - INFO - Successfully fetched 6 articles
+2025-09-06 01:39:57,639 - api - INFO - Analyzing evidence...
+2025-09-06 01:46:54,653 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:46:54,653 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:47:19,065 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 01:47:42,067 - nli - INFO - NLI model loaded successfully
+2025-09-06 01:47:44,636 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 01:48:16,667 - api - INFO - Processing claim: the dog has two legs...
+2025-09-06 01:48:16,667 - api - INFO - Searching for relevant sources...
+2025-09-06 01:48:16,841 - retrieve - INFO - Google search attempt 1 for query: ("the dog has two legs") OR ("the dog" OR "dog has...
+2025-09-06 01:48:19,620 - retrieve - INFO - Google search successful: found 7 URLs
+2025-09-06 01:48:19,675 - retrieve - INFO - NewsAPI search attempt 1 for query: ("the dog has two legs") OR ("the dog" OR "dog has...
+2025-09-06 01:48:21,745 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22the+dog+has+two+legs%22%29+OR+%28%22the+dog%22+OR+%22dog+has%22+OR+%22has+two%22+OR+%22two+legs%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 01:48:21,747 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 01:48:21,787 - api - INFO - Fetching 7 articles...
+2025-09-06 01:48:27,966 - retrieve - ERROR - Failed to fetch https://www.rbc.com/cyber-security/alerts/index.html: Cannot connect to host www.rbc.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-06 01:48:36,380 - retrieve - INFO - Successfully fetched 6 articles
+2025-09-06 01:48:36,384 - api - INFO - Successfully fetched 6 articles
+2025-09-06 01:48:36,384 - api - INFO - Analyzing evidence...
+2025-09-06 01:55:27,723 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:55:27,724 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 01:55:42,017 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 01:56:12,998 - nli - INFO - NLI model loaded successfully
+2025-09-06 01:56:14,729 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 01:57:27,230 - api - INFO - Processing claim: the dog has two legs...
+2025-09-06 01:57:27,230 - api - INFO - Searching for relevant sources...
+2025-09-06 01:57:27,233 - retrieve - INFO - Searching: ("the dog has two legs") OR ("the dog" OR "dog has" OR "has two" OR "two legs") official confirmed real fake hoax verified 2025
+2025-09-06 01:57:27,237 - retrieve - INFO - Google search attempt 1 for query: ("the dog has two legs") OR ("the dog" OR "dog has...
+2025-09-06 01:57:29,470 - retrieve - INFO - Google search successful: found 7 URLs
+2025-09-06 01:57:29,605 - retrieve - INFO - NewsAPI search attempt 1 for query: ("the dog has two legs") OR ("the dog" OR "dog has...
+2025-09-06 01:57:32,015 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22the+dog+has+two+legs%22%29+OR+%28%22the+dog%22+OR+%22dog+has%22+OR+%22has+two%22+OR+%22two+legs%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 01:57:32,022 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 01:57:32,111 - api - INFO - Fetching 7 articles...
+2025-09-06 01:57:38,514 - retrieve - ERROR - Failed to fetch https://www.rbc.com/cyber-security/alerts/index.html: Cannot connect to host www.rbc.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-06 01:57:48,187 - retrieve - INFO - Successfully fetched 6 articles
+2025-09-06 01:57:48,190 - api - INFO - Successfully fetched 6 articles
+2025-09-06 01:57:48,191 - api - INFO - Analyzing evidence...
+2025-09-06 02:02:10,673 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:02:10,674 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:02:33,782 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 02:03:00,181 - nli - INFO - NLI model loaded successfully
+2025-09-06 02:03:02,280 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 02:03:42,526 - api - INFO - Processing claim: the dog has two legs...
+2025-09-06 02:03:42,527 - api - INFO - Searching for relevant sources...
+2025-09-06 02:03:42,579 - retrieve - INFO - Searching: ("the dog has two legs") OR ("the dog" OR "dog has" OR "has two" OR "two legs") official confirmed real fake hoax verified 2025
+2025-09-06 02:03:42,581 - retrieve - INFO - Google search attempt 1 for query: ("the dog has two legs") OR ("the dog" OR "dog has...
+2025-09-06 02:03:45,518 - retrieve - INFO - Google search successful: found 7 URLs
+2025-09-06 02:03:45,762 - retrieve - INFO - NewsAPI search attempt 1 for query: ("the dog has two legs") OR ("the dog" OR "dog has...
+2025-09-06 02:03:47,623 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22the+dog+has+two+legs%22%29+OR+%28%22the+dog%22+OR+%22dog+has%22+OR+%22has+two%22+OR+%22two+legs%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 02:03:47,948 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 02:03:48,073 - api - INFO - Fetching 7 articles...
+2025-09-06 02:03:49,145 - retrieve - ERROR - Failed to fetch https://www.rbc.com/cyber-security/alerts/index.html: Cannot connect to host www.rbc.com:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')]
+2025-09-06 02:04:04,401 - retrieve - INFO - Successfully fetched 6 articles
+2025-09-06 02:04:04,406 - api - INFO - Successfully fetched 6 articles
+2025-09-06 02:04:04,406 - api - INFO - Analyzing evidence...
+2025-09-06 02:11:21,460 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:11:21,462 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:11:39,642 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 02:11:54,165 - nli - INFO - NLI model loaded successfully
+2025-09-06 02:11:55,479 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 02:12:22,082 - api - INFO - Processing claim: the dog has two legs...
+2025-09-06 02:12:22,093 - api - INFO - Searching for relevant sources...
+2025-09-06 02:12:22,108 - retrieve - INFO - Searching: ("the dog has two legs") OR ("the dog" OR "dog has" OR "has two" OR "two legs") official confirmed real fake hoax verified 2025
+2025-09-06 02:12:22,150 - retrieve - INFO - Google search attempt 1 for query: ("the dog has two legs") OR ("the dog" OR "dog has...
+2025-09-06 02:12:24,894 - retrieve - INFO - Google search successful: found 7 URLs
+2025-09-06 02:12:25,033 - retrieve - INFO - NewsAPI search attempt 1 for query: ("the dog has two legs") OR ("the dog" OR "dog has...
+2025-09-06 02:12:27,417 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22the+dog+has+two+legs%22%29+OR+%28%22the+dog%22+OR+%22dog+has%22+OR+%22has+two%22+OR+%22two+legs%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 02:12:27,422 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 02:12:27,627 - api - INFO - Fetching 7 articles...
+2025-09-06 02:12:47,622 - retrieve - INFO - Successfully fetched 7 articles
+2025-09-06 02:12:47,625 - api - INFO - Successfully fetched 7 articles
+2025-09-06 02:12:47,625 - api - INFO - Analyzing evidence...
+2025-09-06 02:15:56,407 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:15:56,408 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:16:25,978 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 02:16:42,764 - nli - INFO - NLI model loaded successfully
+2025-09-06 02:16:44,029 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 02:17:03,754 - api - INFO - Processing claim: the dog has two legs...
+2025-09-06 02:17:03,755 - api - INFO - Searching for relevant sources...
+2025-09-06 02:17:03,756 - retrieve - INFO - Searching: ("the dog has two legs") OR ("the dog" OR "dog has" OR "has two" OR "two legs") official confirmed real fake hoax verified 2025
+2025-09-06 02:17:03,759 - retrieve - INFO - Google search attempt 1 for query: ("the dog has two legs") OR ("the dog" OR "dog has...
+2025-09-06 02:17:06,304 - retrieve - INFO - Google search successful: found 7 URLs
+2025-09-06 02:17:06,517 - retrieve - INFO - NewsAPI search attempt 1 for query: ("the dog has two legs") OR ("the dog" OR "dog has...
+2025-09-06 02:17:08,532 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22the+dog+has+two+legs%22%29+OR+%28%22the+dog%22+OR+%22dog+has%22+OR+%22has+two%22+OR+%22two+legs%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 02:17:08,534 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 02:17:08,630 - api - INFO - Fetching 7 articles...
+2025-09-06 02:17:26,773 - retrieve - INFO - Successfully fetched 7 articles
+2025-09-06 02:17:26,775 - api - INFO - Successfully fetched 7 articles
+2025-09-06 02:17:26,776 - api - INFO - Analyzing evidence...
+2025-09-06 02:27:56,708 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:27:56,755 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:28:18,887 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 02:28:42,093 - nli - INFO - NLI model loaded successfully
+2025-09-06 02:28:43,741 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 02:29:16,147 - api - INFO - Processing claim: where is the pm of india...
+2025-09-06 02:29:16,148 - api - INFO - Searching for relevant sources...
+2025-09-06 02:29:16,150 - retrieve - INFO - Searching: "where is the pm of india" official confirmed real fake hoax verified 2025
+2025-09-06 02:29:16,152 - retrieve - INFO - Google search attempt 1 for query: "where is the pm of india" official confirmed real...
+2025-09-06 02:29:18,416 - retrieve - INFO - Google search successful: found 0 URLs
+2025-09-06 02:29:18,419 - retrieve - INFO - NewsAPI search attempt 1 for query: "where is the pm of india" official confirmed real...
+2025-09-06 02:29:20,577 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%22where+is+the+pm+of+india%22+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 02:29:20,579 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 02:29:20,585 - retrieve - INFO - Adding 8 diverse fallback sources
+2025-09-06 02:29:20,586 - retrieve - INFO - Final search results: 7 diverse URLs from 7 sources
+2025-09-06 02:29:20,587 - api - INFO - Fetching 7 articles...
+2025-09-06 02:29:36,137 - retrieve - INFO - Successfully fetched 7 articles
+2025-09-06 02:29:36,139 - api - INFO - Successfully fetched 7 articles
+2025-09-06 02:29:36,140 - api - INFO - Analyzing evidence...
+2025-09-06 02:29:47,655 - api - INFO - Found 7 total evidence sentences
+2025-09-06 02:29:47,669 - api - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 7
+2025-09-06 02:29:47,713 - verdict - INFO - Determining web search verdict with 0 supporting, 0 contradicting, 7 neutral evidence
+2025-09-06 02:29:47,718 - verdict - INFO - Determining AI verdict for claim: where is the pm of india...
+2025-09-06 02:29:47,724 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 02:30:12,700 - api - INFO - Generating AI reasoning...
+2025-09-06 02:30:12,701 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 02:30:18,094 - api - INFO - Returning 7 evidence items
+2025-09-06 02:31:55,774 - api - INFO - Processing claim: dog has two legs...
+2025-09-06 02:31:55,774 - api - INFO - Searching for relevant sources...
+2025-09-06 02:31:55,775 - retrieve - INFO - Searching: ("dog has two legs") OR ("dog has" OR "has two" OR "two legs") official confirmed real fake hoax verified 2025
+2025-09-06 02:31:55,777 - retrieve - INFO - Google search attempt 1 for query: ("dog has two legs") OR ("dog has" OR "has two" OR...
+2025-09-06 02:31:58,843 - retrieve - INFO - Google search successful: found 6 URLs
+2025-09-06 02:31:58,849 - retrieve - INFO - Found 6 URLs via Google Search
+2025-09-06 02:31:58,850 - retrieve - INFO - NewsAPI search attempt 1 for query: ("dog has two legs") OR ("dog has" OR "has two" OR...
+2025-09-06 02:32:05,988 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22dog+has+two+legs%22%29+OR+%28%22dog+has%22+OR+%22has+two%22+OR+%22two+legs%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 02:32:05,991 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 02:32:05,994 - retrieve - INFO - Adding 8 diverse fallback sources
+2025-09-06 02:32:05,995 - retrieve - INFO - Final search results: 7 diverse URLs from 7 sources
+2025-09-06 02:32:05,995 - api - INFO - Fetching 7 articles...
+2025-09-06 02:32:18,631 - retrieve - INFO - Successfully fetched 7 articles
+2025-09-06 02:32:18,635 - api - INFO - Successfully fetched 7 articles
+2025-09-06 02:32:18,636 - api - INFO - Analyzing evidence...
+2025-09-06 02:36:46,313 - api - INFO - Found 7 total evidence sentences
+2025-09-06 02:36:46,345 - api - INFO - Evidence categorized - Supporting: 0, Contradicting: 0, Neutral: 7
+2025-09-06 02:36:46,346 - verdict - INFO - Determining web search verdict with 0 supporting, 0 contradicting, 7 neutral evidence
+2025-09-06 02:36:46,353 - verdict - INFO - Determining AI verdict for claim: dog has two legs...
+2025-09-06 02:36:46,356 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 02:36:58,146 - api - INFO - Generating AI reasoning...
+2025-09-06 02:36:58,174 - reasoning - INFO - Generating AI reasoning for verdict: UNCLEAR
+2025-09-06 02:37:04,934 - api - INFO - Returning 7 evidence items
+2025-09-06 02:38:07,553 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:38:07,555 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:38:24,034 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:38:24,037 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:38:43,561 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 02:38:58,482 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 02:39:04,863 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:39:05,113 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:40:52,683 - nli - INFO - NLI model loaded successfully
+2025-09-06 02:40:53,864 - nli - INFO - NLI model loaded successfully
+2025-09-06 02:41:33,379 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 02:41:47,962 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 02:41:55,351 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 02:42:18,525 - api - INFO - Processing claim: dog has two legs...
+2025-09-06 02:42:18,651 - api - INFO - Searching for relevant sources...
+2025-09-06 02:42:18,675 - retrieve - INFO - Searching: ("dog has two legs") OR ("dog has" OR "has two" OR "two legs") official confirmed real fake hoax verified 2025
+2025-09-06 02:42:18,699 - retrieve - INFO - Google search attempt 1 for query: ("dog has two legs") OR ("dog has" OR "has two" OR...
+2025-09-06 02:42:32,061 - retrieve - ERROR - Google search error on attempt 1: HTTPSConnectionPool(host='www.googleapis.com', port=443): Max retries exceeded with url: /customsearch/v1?key=AIzaSyCINsSD1joIHUyDwS_nFvqooveGNaW7EDY&cx=823921cfd848941d0&q=%28%22dog+has+two+legs%22%29+OR+%28%22dog+has%22+OR+%22has+two%22+OR+%22two+legs%22%29+official+confirmed+real+fake+hoax+verified+2025+-site%3Atwitter.com+-site%3Ayoutube.com+-site%3Afacebook.com+-site%3Atiktok.com+-site%3Areddit.com+-site%3Apinterest.com&num=7&dateRestrict=m3&gl=us&lr=lang_en (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+2025-09-06 02:42:33,131 - retrieve - INFO - Google search attempt 2 for query: ("dog has two legs") OR ("dog has" OR "has two" OR...
+2025-09-06 02:42:37,283 - retrieve - INFO - Google search successful: found 6 URLs
+2025-09-06 02:42:37,283 - retrieve - INFO - Found 6 URLs via Google Search
+2025-09-06 02:42:37,283 - retrieve - INFO - NewsAPI search attempt 1 for query: ("dog has two legs") OR ("dog has" OR "has two" OR...
+2025-09-06 02:42:42,566 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22dog+has+two+legs%22%29+OR+%28%22dog+has%22+OR+%22has+two%22+OR+%22two+legs%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 02:42:42,622 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 02:42:42,758 - retrieve - INFO - Adding 8 diverse fallback sources
+2025-09-06 02:42:42,766 - retrieve - INFO - Final search results: 7 diverse URLs from 7 sources
+2025-09-06 02:42:42,846 - api - INFO - Fetching 7 articles...
+2025-09-06 02:42:56,439 - retrieve - INFO - Successfully fetched 7 articles
+2025-09-06 02:42:56,854 - api - INFO - Successfully fetched 7 articles
+2025-09-06 02:42:56,869 - api - INFO - Analyzing evidence...
+2025-09-06 02:43:45,274 - nli - INFO - NLI model loaded successfully
+2025-09-06 02:44:17,013 - huggingface_ai - INFO - Gemini AI model initialized successfully
+2025-09-06 02:48:20,898 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:48:20,906 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:49:00,627 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 02:49:03,951 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:49:03,951 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:50:03,414 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:50:03,414 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:50:40,870 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 02:51:28,874 - nli - INFO - NLI model loaded successfully
+2025-09-06 02:54:40,269 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:54:40,269 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:55:03,833 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 02:55:58,984 - nli - INFO - NLI model loaded successfully
+2025-09-06 02:56:21,694 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:56:21,702 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:56:21,702 - retrieve - INFO - Searching: ("test query") OR ("test query") official confirmed real fake hoax verified 2025
+2025-09-06 02:56:21,702 - retrieve - INFO - Google search attempt 1 for query: ("test query") OR ("test query") official confirme...
+2025-09-06 02:56:23,509 - retrieve - INFO - Google search successful: found 0 URLs
+2025-09-06 02:56:23,518 - retrieve - INFO - NewsAPI search attempt 1 for query: ("test query") OR ("test query") official confirme...
+2025-09-06 02:56:26,548 - retrieve - ERROR - NewsAPI HTTP error: 426 Client Error: Upgrade Required for url: https://newsapi.org/v2/everything?q=%28%22test+query%22%29+OR+%28%22test+query%22%29+official+confirmed+real+fake+hoax+verified+2025&apiKey=525c9acee15f4a9ca9a1db89c70813a0&pageSize=7&sortBy=publishedAt&language=en&from=2024-01-01
+2025-09-06 02:56:26,584 - retrieve - ERROR - NewsAPI search failed after all retries
+2025-09-06 02:56:26,600 - retrieve - INFO - Adding 8 diverse fallback sources
+2025-09-06 02:56:26,600 - retrieve - INFO - Final search results: 7 diverse URLs from 7 sources
+2025-09-06 02:57:46,568 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:57:46,568 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:58:11,358 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 02:58:38,493 - nli - INFO - NLI model loaded successfully
+2025-09-06 02:59:37,227 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:59:37,235 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:59:37,253 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:59:37,253 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:59:57,764 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 02:59:57,764 - cache - INFO - Initialized TTL cache with TTL=3600s, max_size=1000
+2025-09-06 03:00:19,701 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 03:00:19,963 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 03:00:41,072 - nli - INFO - Loading NLI model 'microsoft/deberta-v3-base' on device: CPU
+2025-09-06 03:03:58,259 - nli - INFO - NLI model loaded successfully
+2025-09-06 03:03:58,268 - nli - INFO - NLI model loaded successfully
+2025-09-06 03:04:24,126 - huggingface_ai - INFO - Gemini AI model initialized successfully
